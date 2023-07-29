@@ -5,7 +5,7 @@ import * as LottiePlayer from "@lottiefiles/lottie-player";
 
 export default function About() {
   const getDate = () => {
-    var dob = new Date("01/21/2003");
+    var dob = new Date("05/23/1994");
     var month_diff = Date.now() - dob.getTime();
     var age_dt = new Date(month_diff);
     var year = age_dt.getUTCFullYear();
@@ -23,24 +23,30 @@ export default function About() {
       <div className="flex flex-row  gap-6 ml-8">
         <div className="flex-col mt-14 flex flex-auto w-64 gap-6">
           <h3 className="text-3xl font-medium" data-aos={"fade-left"}>
-            I'm <span className="text-yellow-600">Daniel Jebarson,</span> a Web
+            I'm <span className="text-yellow-600">Edgar Andrade,</span> a Web
             Enthusiast
           </h3>
           <p
             className="pt-5 leading-7 text-slate-900 text-justify"
             data-aos={"fade-left"}
           >
-            I love playing music, reading comics and playing games. I am
-            currently pursuing BTech degree in VIT Vellore. I am {getDate()}{" "}
-            years old.I love exploring new technologies.
+            A passionate Web Developer specialized in JavaScript and ReactJS.
+            With a focus on creating interactive websites, I continuously
+            optimize and troubleshoot to deliver exceptional user experiences.
           </p>
+
+          <h3 className="text-2xl font-medium" data-aos={"fade-left"}>
+            🔥 Passion for Learning:
+          </h3>
+
           <p
-            className="text-justify leading-7 text-slate-900"
-            data-aos={"fade-right"}
+            className="pt-5 leading-7 text-slate-900 text-justify"
+            data-aos={"fade-left"}
           >
-            I am currently looking for jobs. I am also a discord bot developer.
-            I worked on reactJs, NextJs, TypeScript, Java and many more. I am
-            also looking to collaborate in open-source projects.
+            As an experienced developer, I have a strong drive for continuous
+            growth. I stay up-to-date with the latest industry trends and best
+            practices, constantly seeking opportunities for professional
+            development.
           </p>
         </div>
 
@@ -64,8 +70,8 @@ export default function About() {
           </div>
           <button className="py-3 mt-5 text-white mx-auto px-9 bg-blue-600 border-2 w-fit border-blue-500 rounded-3xl  hover:-translate-y-1.5 duration-[350ms] hover:duration-[350ms] hover:bg-blue-800 hover:scale-[1.023] focus:bg-blue-800 animate-zoomy">
             <a
-              href={require("../../assets/files/Daniel Resume.pdf")}
-              download={"Dani'sResume.pdf"}
+              href={require("../../assets/files/Edgar's Resume.pdf")}
+              download={"Edgar's Resume.pdf"}
             >
               Download CV
               <DownloadIcon />
