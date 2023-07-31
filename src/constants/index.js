@@ -41,7 +41,7 @@ export const projects = [
         color: "blue-800",
       },
     ],
-    img: "https://imgbox.com/MbVQypMf",
+    img: "https://images2.imgbox.com/02/5a/MbVQypMf_o.png",
     link: "https://m0de.com/products/mode-toothbrush",
     code: "",
   },
